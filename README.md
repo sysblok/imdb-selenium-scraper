@@ -1,8 +1,10 @@
 # imdb-selenium-scraper
 
+Selenium-driven scraper of festival movie data from IMDB.
+
 ## Usage
 
-1) Create a virtual environment: `python -m venv env && source env/bin/activate`
+1) Create a virtual environment: `python3.10 -m venv env && source env/bin/activate`
 2) Install requirements: `python -m pip install -r requirements.txt`
 3) Run `main.py`:
 ```bash

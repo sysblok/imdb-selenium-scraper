@@ -4,8 +4,8 @@ Selenium-driven scraper of festival movie data from IMDB.
 
 ## Usage
 
-1) Create a virtual environment: `python3.10 -m venv env && source env/bin/activate`
-2) Install requirements: `python -m pip install -r requirements.txt`
+1) Create a virtual environment: `python3.10 -m venv env && source env/bin/activate`;
+2) Install requirements: `python -m pip install -r requirements.txt`;
 3) Run `main.py`:
 ```bash
 $ python main.py 
@@ -14,3 +14,4 @@ $ python main.py
 {"Palme d'Or": [None]} for 2000 got 23 movies: https://www.imdb.com/event/ev0000147/2000/1/?ref_=ev_eh
  22%|███████████████████████▋                                                                                     | 5/23 [00:14<00:51,  2.86s/it]
 ```
+4) The scraped data will appear in the `data` folder.

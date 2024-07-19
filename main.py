@@ -23,6 +23,15 @@ if __name__ == '__main__':
                 'Palme d\'Or': [None]
             }
         ),
+        FestivalScrapingRequest(
+            'Tokyo Film Awards',
+            'https://www.imdb.com/event/ev0044225',
+            # all movies
+            [],
+            {
+                'Best Short Film': [None]
+            }
+        ),
     ]
 
     for request in requests:

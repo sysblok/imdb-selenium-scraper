@@ -67,7 +67,7 @@ class IMDBScraper:
             category_blocks = {}
             for b in award_category_blocks:
                 try:
-                    award_category_name = b.find_element(By.CLASS_NAME, 'event-widgets__award-category').text
+                    award_category_name = b.find_element(By.CLASS_NAME, 'event-widgets__award-category-name').text
                 except:
                     award_category_name = None
                 if award_category_name in award_categories[award_name]:
